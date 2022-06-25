@@ -17,7 +17,8 @@ A simple tool (really simple, about 20 lines of code) to convert a dart object, 
 
 You can use it as an operator (`~` or twice `~~`), as an extension (property `.asBool`) or as a simple helper method (`asBool(value)`).
 
-> **IMPORTANT CAVEAT:** The operator `~` doesn't work with `int` values because is used for [bit-wise negate operator](https://api.flutter.dev/flutter/dart-core/int/operator_bitwise_negate.html), for `int` objects use the extension or helper method
+> **Warning**
+> The operator `~` doesn't work with `int` values because is used for [bit-wise negate operator](https://api.flutter.dev/flutter/dart-core/int/operator_bitwise_negate.html), for `int` objects use the extension or helper method
 
 What values are convert to `false`
 
