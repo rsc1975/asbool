@@ -20,7 +20,7 @@ You can use it as an operator (`~` or twice `~~`), as an extension (property `.a
 > **Warning**
 > The operator `~` doesn't work with `int` values because is used for [bit-wise negate operator](https://api.flutter.dev/flutter/dart-core/int/operator_bitwise_negate.html), for `int` objects use the extension or helper method
 
-What values are convert to `false`
+What values are converted to `false`:
 
 * `null` 
 * `0` And `0.0`
