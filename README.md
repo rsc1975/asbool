@@ -11,13 +11,13 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-A simple tool (really simple, about 20 lines of code) to convert a dart object, including `null`, in a `bool` (`true|false`), quite similar to how works the double operator `!!` in Javascript and Typescript.
+A simple tool (really simple, about 20 lines of code) to convert a dart object, including `null`, in a `bool` (`true|false`), quite similar to how the twice operator (`!!`) works in Javascript and Typescript.
 
 ## Features
 
-You can use it as an operator (`~` or twice `~~`) , as an extension (property `.asBool`) or as a simple helper method (`asBool(value)`).
+You can use it as an operator (`~` or twice `~~`), as an extension (property `.asBool`) or as a simple helper method (`asBool(value)`).
 
-> **IMPORTANT:** The operator `~` doesn't work with `int` values beacuse is used for [bit-wise negate operator](https://api.flutter.dev/flutter/dart-core/int/operator_bitwise_negate.html), for `int` objects use the extension or helper method
+> **IMPORTANT CAVEAT:** The operator `~` doesn't work with `int` values because is used for [bit-wise negate operator](https://api.flutter.dev/flutter/dart-core/int/operator_bitwise_negate.html), for `int` objects use the extension or helper method
 
 What values are convert to `false`
 
@@ -59,7 +59,6 @@ import 'package:asbool/asbool_helper.dart'; // Only helper method
 ```
 
 Only helper method is imported.
-
 
 ## Usage
 
