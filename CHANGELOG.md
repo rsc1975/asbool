@@ -20,3 +20,9 @@
 
 - Added API Doc
 
+## 1.0.5
+
+- Typo fixing
+
+
+

@@ -1,10 +1,11 @@
 /// A simple tool to convert a dart object, including `null`, in
 /// a `bool` (`true|false`), quite similar to how works the 
-/// twice operator `!!` in Javascript and Typescript.
+/// double NOT operator `!!` in Javascript and Typescript.
 ///
+/// This lib can be used like a helper method (`asBool(value)`), 
+/// like an extension property (`<any>.asBool`) or like an operator (`~~<any>`).
 library asbool;
 
-export 'src/asbool_base.dart';
-export 'src/asbool_extension.dart';
+export 'asbool_extension.dart';
 export 'src/asbool_operator.dart';
 
