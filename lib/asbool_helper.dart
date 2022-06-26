@@ -2,7 +2,7 @@
 /// a `bool` (`true|false`), quite similar to how works the 
 /// twice operator `!!` in Javascript and Typescript.
 //
-library asbool;
+library asbool_helper;
 
 export 'src/asbool_base.dart';
 
