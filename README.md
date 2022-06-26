@@ -1,8 +1,9 @@
 [![Pub Version](https://img.shields.io/pub/v/asbool)](https://pub.dev/packages/asbool)
 [![codecov](https://codecov.io/gh/rsc1975/asbool/branch/main/graph/badge.svg?token=IHB0J0OOPQ)](https://codecov.io/gh/rsc1975/asbool)
-[![Null Safety](https://img.shields.io/badge/null-safety-brightgreen)](https://dart.dev/null-safety)
 [![Code size](https://img.shields.io/github/languages/code-size/rsc1975/asbool?logo=github&logoColor=white)](https://github.com/rsc1975/asbool)
 [![License](https://img.shields.io/github/license/rsc1975/asbool?logo=open-source-initiative&logoColor=green)](https://github.com/rsc1975/asbool/blob/master/LICENSE)
+[![Null Safety](https://img.shields.io/badge/null-safety-brightgreen?logo=dart&logoColor=lightblue)](https://dart.dev/null-safety)
+[![API Doc](https://img.shields.io/badge/docs-Dart%20apidoc-blue?logo=dart&logoColor=lightblue)](https://pub.dev/documentation/asbool/latest/)
 
 
 A simple tool (really simple, about 25 lines of code) to convert a dart object, including `null`, in a `bool` (`true|false`), quite similar to how the double NOT operator (`!!`) works in Javascript and Typescript.
