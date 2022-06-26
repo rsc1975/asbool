@@ -16,3 +16,7 @@
 - Added GitHub action for test coverage
 - Added some badges to README.md
 
+## 1.0.4
+
+- Added API Doc
+

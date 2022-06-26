@@ -6,5 +6,3 @@ library asbool;
 
 export 'src/asbool_base.dart';
 export 'src/asbool_extension.dart';
-
-// TODO: Export any libraries intended for clients of this package.

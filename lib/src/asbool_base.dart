@@ -1,4 +1,7 @@
+/// Helper calls with a single method to convert a `dynamic`object to a `bool`
 class BoolHelper {
+
+  /// Method to convert anything to a `bool`
   static bool convertToBool(value) {
     if (value == null) {
       return false;
@@ -28,4 +31,5 @@ class BoolHelper {
   }
 }
 
+/// Public helper method for friendly use of the original `BoolHelper.convertToBool`
 const asBool = BoolHelper.convertToBool;
