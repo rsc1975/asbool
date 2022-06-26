@@ -1,6 +1,5 @@
 /// Helper class with a single method to convert a `dynamic` object to a `bool`
 class BoolHelper {
-
   /// Method to convert anything to a `bool`
   /// The following objects are considered as `false`:
   /// * `null`
@@ -9,7 +8,7 @@ class BoolHelper {
   /// * `""` Empty Strings
   /// * `[]` Empty iterable objects
   /// * `<any>.isEmpty` == true Whatever object with a `isEmpty` property that returns true (i.e, a Map or any custom class that implement isEmpty)
-  /// 
+  ///
   /// All other object values are considered as `true`
   static bool convertToBool(value) {
     if (value == null) {
@@ -18,9 +17,7 @@ class BoolHelper {
     if (value is bool) {
       return value;
     }
-    if ((value is String ||
-            value is Iterable ||
-            value is Map) &&
+    if ((value is String || value is Iterable || value is Map) &&
         value.isEmpty) {
       return false;
     }
