@@ -1,6 +1,6 @@
 name: asbool
 description: Simple tool to convert whatever thing (dynamic) to a bool value.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/rsc1975/asbool
 
 environment:
@@ -9,3 +9,5 @@ environment:
 dev_dependencies:
   lints: ^1.0.0
   test: ^1.16.0
+
+

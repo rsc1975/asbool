@@ -15,6 +15,18 @@ void main() {
     setUp(() {
       // Additional setup goes here.
     });
+    
+    test('Testing al false cases', () {
+      assert(!asBool(null)); 
+      assert(!asBool(double.nan)); 
+      assert(!asBool('')); 
+      assert(!asBool(0)); 
+      assert(!asBool(0.0)); 
+      assert(!asBool([])); // Iterable
+      assert(!asBool(<int>{}));  // Set (also iterable)
+      assert(!asBool(<String, Object>{})); // Map
+      assert(!asBool(B())); // custom class with isEmpty
+    });
 
     test('Testing basic types and collections', () {
       assert(~null == !null.asBool); // true == true
