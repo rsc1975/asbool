@@ -1,6 +1,7 @@
-![Pub Version](https://img.shields.io/pub/v/asbool)
+[![Pub Version](https://img.shields.io/pub/v/asbool)](https://pub.dev/packages/asbool)
+[![codecov](https://codecov.io/gh/rsc1975/asbool/branch/main/graph/badge.svg?token=IHB0J0OOPQ)](https://codecov.io/gh/rsc1975/asbool)
 
-A simple tool (really simple, about 20 lines of code) to convert a dart object, including `null`, in a `bool` (`true|false`), quite similar to how the twice operator (`!!`) works in Javascript and Typescript.
+A simple tool (really simple, about 25 lines of code) to convert a dart object, including `null`, in a `bool` (`true|false`), quite similar to how the twice operator (`!!`) works in Javascript and Typescript.
 
 ## Features
 

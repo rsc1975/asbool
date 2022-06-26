@@ -11,3 +11,8 @@
 
 - Downgraded min dart version to 2.14.1
 
+## 1.0.3
+
+- Added GitHub action for test coverage
+- Added some badges to README.md
+
