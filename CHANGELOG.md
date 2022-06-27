@@ -1,6 +1,6 @@
 ## 1.0.6
 
-- Simplification of lib and imports, just 1 import now with all included
+- Simplification of lib and imports, just one import now with all options included
 
 ## 1.0.5
 
