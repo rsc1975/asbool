@@ -28,6 +28,10 @@ void main() {
   assert(MyOtherClass().asBool == false); // false == false (with .isEmpty property)
   assert(asBool(MyOtherClass()..value='Hi') == true); // true == true (with .isEmpty property)
 
+  final things = [123, 'Hi', null, {}, {'a': 'b'}, double.nan, double.infinity, MyClass(), MyOtherClass(), 0, 0.0, ['ok']];
+  final trueThings = things.where(asBool).toList();
+  print(trueThings); // It will  print [123, 'Hi', {'a': 'b'}, double.infinity, MyClass(), ['ok']]
+
 
   print('All asserts OK');
 

@@ -1,28 +1,32 @@
-## 1.0.0
+## 1.0.6
 
-- Initial version.
+- Simplification of lib and imports, just 1 import now with all included
 
-## 1.0.1
+## 1.0.5
 
-- Downgraded min dart version to 2.17.0
-- Typo fixing in README.md
+- Typo fixing
+## 1.0.4
 
-## 1.0.2
-
-- Downgraded min dart version to 2.14.1
+- Added API Doc
 
 ## 1.0.3
 
 - Added GitHub action for test coverage
 - Added some badges to README.md
 
-## 1.0.4
+## 1.0.2
 
-- Added API Doc
+- Downgraded min dart version to 2.14.1
 
-## 1.0.5
+## 1.0.1
 
-- Typo fixing
+- Downgraded min dart version to 2.17.0
+- Typo fixing in README.md
+
+## 1.0.0
+
+- Initial version.
+
 
 
 

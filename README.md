@@ -34,27 +34,12 @@ Add the package `asbool` to your project:
 dart pub add asbool
 ```
 
-Import the package, but if you prefer don't add the extension or the operator you can use different imports:
+Import the package:
 
 ```dart
 import 'package:asbool/asbool.dart'; // All included
 ```
 
-All options are included: helper method, extension and operator.
-
-
-```dart
-import 'package:asbool/asbool_extension.dart'; // Only helper method and extension
-```
-
-Only 2 options are included: helper method and extension.
-
-
-```dart
-import 'package:asbool/asbool_helper.dart'; // Only helper method
-```
-
-Only helper method is imported.
 
 ## Usage
 
@@ -72,6 +57,12 @@ assert(asBool(bar) == bar.asBool); // false == false
 assert(asBool(0.0) == ~~double.nan); // false == false
 assert(~~m == true); // true == true
 assert(asBool({}) == false); // false == false
+
+final things = [123, 'Hi', null, {}, {'a': 'b'}, double.nan, double.infinity, MyClass(), MyOtherClass(), 0, 0.0, ['ok']];
+final trueThings = things.where(asBool).toList();
+print(trueThings); // It will print: [123, 'Hi', {'a': 'b'}, double.infinity, MyClass(), ['ok']]
+
+
 ```
 
 ## Additional information
